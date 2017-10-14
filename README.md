@@ -1,1 +1,1 @@
-# hapi-ssr
+# hapi-ssr [![Build Status](https://travis-ci.org/jbuget/hapi-ssr.svg?branch=master)](https://travis-ci.org/jbuget/hapi-ssr)
