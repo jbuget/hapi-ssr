@@ -1,0 +1,25 @@
+{
+  "name": "hapi-ssr",
+  "version": "1.0.0",
+  "description": "Learning Hapi.js Web framework until mastering SSR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuget/hapi-ssr.git"
+  },
+  "keywords": [
+    "Hapi",
+    "REST",
+    "API",
+    "SSR"
+  ],
+  "author": "Jérémy Buget <contact@jbuget.fr> (http://jbuget.fr/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jbuget/hapi-ssr/issues"
+  },
+  "homepage": "https://github.com/jbuget/hapi-ssr#readme"
+}
