@@ -4,7 +4,7 @@ const plugins = require('./lib/plugins');
 server.register(plugins, (err) => {
 
   if (err) {
-    throw err; // something bad happened loading the plugin
+    throw err; // something bad happened loading the plugins
   }
 
   server.start((err) => {
