@@ -4,6 +4,7 @@
   "description": "Learning Hapi.js Web framework until mastering SSR",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/jbuget/hapi-ssr/issues"
   },
-  "homepage": "https://github.com/jbuget/hapi-ssr#readme"
+  "homepage": "https://github.com/jbuget/hapi-ssr#readme",
+  "dependencies": {
+    "good": "^7.3.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.6.2",
+    "hapi-swagger": "^7.8.1",
+    "inert": "^4.2.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
