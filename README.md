@@ -1,4 +1,6 @@
-# hapi-ssr [![Build Status](https://travis-ci.org/jbuget/hapi-ssr.svg?branch=master)](https://travis-ci.org/jbuget/hapi-ssr)
+# hapi-ssr 
+[![Build Status](https://travis-ci.org/jbuget/hapi-ssr.svg?branch=master)](https://travis-ci.org/jbuget/hapi-ssr)
+[![Coverage Status](https://coveralls.io/repos/github/jbuget/hapi-ssr/badge.svg?branch=master)](https://coveralls.io/github/jbuget/hapi-ssr?branch=master)
 
 **1/ Clone the repository**
 
