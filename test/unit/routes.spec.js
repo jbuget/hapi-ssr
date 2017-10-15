@@ -5,20 +5,17 @@ const expectedRoutes = [
   { method: 'GET', path: '/toto' },
 ];
 
-function assertThatExist(expecetdRoute) {
-  const matchingRoutes = routes.filter((route) => {
-    return route.method === expecetdRoute.method && route.path === expecetdRoute.path;
-  });
+function assertThatExist(expectedRoute) {
+  const matchingRoutes = routes.filter(route =>
+    route.method === expectedRoute.method &&
+    route.path === expectedRoute.path);
   expect(matchingRoutes).to.have.lengthOf(1);
 }
 
 describe('Unit | routes', () => {
-
   expectedRoutes.forEach((route) => {
-    it(`should contain ${route.method} ${route.path}`, function() {
+    it(`should contain ${route.method} ${route.path}`, () => {
       assertThatExist(route);
     });
-
   });
-
 });

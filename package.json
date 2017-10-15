@@ -6,8 +6,10 @@
   "scripts": {
     "configure": "cp tools/sample.env .env",
     "dev": "nodemon index",
+    "lint": "eslint --quiet index.js lib/** test/**",
     "start": "node index",
     "test": "mocha",
+    "test:ci": "npm run lint && mocha",
     "test:watch": "mocha --watch"
   },
   "repository": {
@@ -42,6 +44,9 @@
     "winston": "^3.0.0-rc0"
   },
   "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "mocha": "^4.0.1",
     "nodemon": "^1.12.1",
     "sinon": "^4.0.1"
